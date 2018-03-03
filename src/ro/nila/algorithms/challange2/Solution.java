@@ -2,7 +2,7 @@ package ro.nila.algorithms.challange2;
 
 import java.util.Scanner;
 
-public class Solution {
+    public class Solution {
 
     static int simpleArraySum(int n, int[] ar) {
         int sum = 0;
