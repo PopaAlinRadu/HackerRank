@@ -1,11 +1,11 @@
-package ro.nila.algorithms.challange2;
+package ro.nila.algorithms.warmup.challange4;
 
 import java.util.Scanner;
 
-    public class Solution {
+public class Solution {
 
-    static int simpleArraySum(int n, int[] ar) {
-        int sum = 0;
+    static long aVeryBigSum(int n, long[] ar) {
+        long sum = 0;
         for (int i = 0; i < n; i++) {
             sum += ar[i];
         }
@@ -15,11 +15,11 @@ import java.util.Scanner;
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        int[] ar = new int[n];
+        long[] ar = new long[n];
         for (int ar_i = 0; ar_i < n; ar_i++) {
-            ar[ar_i] = in.nextInt();
+            ar[ar_i] = in.nextLong();
         }
-        int result = simpleArraySum(n, ar);
+        long result = aVeryBigSum(n, ar);
         System.out.println(result);
     }
 }
