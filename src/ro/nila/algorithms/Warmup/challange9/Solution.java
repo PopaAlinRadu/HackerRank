@@ -1,4 +1,4 @@
-package ro.nila.algorithms.challange9;
+package ro.nila.algorithms.Warmup.challange9;
 
 import java.util.Scanner;
 

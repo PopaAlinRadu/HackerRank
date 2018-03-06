@@ -1,4 +1,4 @@
-package ro.nila.algorithms.challange10;
+package ro.nila.algorithms.Warmup.challange10;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
